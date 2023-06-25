@@ -6,6 +6,15 @@
 
 ## ABOUT :books:
 
+***Mandy*** is a static-site generator. Like all static-site generators, ***Mandy*** needs site templates to rely on to create new Mandy-powered sites. Since she fetches template sites from GitHub, like a few other static-site generators, there should be a default site template that users can employ to get started quickly with their projects. This repository contains the default site template for Mandy-powered sites.
+
+## FEATURES :test_tube:
+
+- SEO 
+- Minimalist modern design.
+- Easy to use.
+- Multiple customization options.
+
 ## USAGE :hammer_and_pick:
 
 To use this template site for your own Mandy-powered site, you need to have Mandy installed. To find out how to do that, head over to [this link](). Once you have Mandy installed, you can use this template in the following way:
