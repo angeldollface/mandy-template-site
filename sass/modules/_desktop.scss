@@ -1,0 +1,241 @@
+img.pfp {
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 1px 2px 15px $hoverColor;
+    border: 6px solid $accentColor;
+    margin-top: 5vh !important;
+    margin-bottom: 5px !important;
+    padding: 0px;
+}
+h1 {
+    text-align: center;
+    color: $accentColor;
+    font-size: 35px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: $contentFont;
+}
+p.motto {
+    text-align: center;
+    color: $accentColor;
+    font-size: 25px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: $headingFont;
+}
+div.content {
+    margin: 0 auto;
+    width: 70%;
+    display: block;
+    border: 4px solid $accentColor;
+    box-shadow: 5px 15px 0px $accentColor;
+    background-color: $mainColor;
+    margin-bottom: 10vh !important;
+    margin-top: 0px !important;
+}
+h2 {
+    text-align: left;
+    color: $accentColor;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin: 0px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: $headingFont;
+}
+h3 {
+    text-align: left;
+    color: $accentColor;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin: 0px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: $headingFont;
+}
+h4 {
+    text-align: left;
+    color: $accentColor;
+    font-size: 26px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin: 0px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: $headingFont;
+}
+p {
+    text-align: left;
+    color: $accentColor;
+    font-size: 24px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: none;
+    font-family: $contentFont;
+}
+a {
+    color: $accentColor;
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: none;
+    font-family: $contentFont;
+    text-decoration: underline;
+    transition-duration: 0.6s;
+}
+a:hover {
+    color: $hoverColor;
+}
+div.footer {
+    width: 100%;
+    margin: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $accentColor;
+}
+img.inline {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+p.footer {
+    text-align: center;
+    color: $mainColor;
+    font-size: 24px;
+    padding: 10px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: none;
+    font-family: $contentFont;
+}
+a.footer {
+    text-align: center;
+    color: $mainColor;
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+    text-decoration: underline;
+    font-style: none;
+    font-family: $contentFont;
+    transition-duration: 0.6s;
+}
+a.footer:hover {
+    color: $hoverColor;
+}
+div.navigation {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 0vw;
+    height: 0vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: $accentColor;
+    position: fixed;
+    z-index: 2;
+    overflow: hidden;
+    transition-duration: 0.6s;
+}
+ul.navigation {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 20vh;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    list-style: none;
+    z-index: 2;
+}
+li.navigation {
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    font-family: $contentFont;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: none;
+    color: $mainColor;
+    margin: 0px;
+    z-index: 2;
+}
+a.navigation {
+    font-style: italic;
+    padding: 0px;
+    font-family: $contentFont;
+    font-weight: 700;
+    font-size: 30px;
+    color: $mainColor;
+    margin: 0px;
+    text-decoration: none;
+    z-index: 2;
+    transition-duration: 0.6s;
+}
+div.menu {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $accentColor;
+    margin: 0px;
+    padding: 0px;
+}
+p.menu {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-family: $contentFont;
+    font-weight: 700;
+    color: $mainColor;
+    font-style: italic;
+    margin: 0px;
+}
+a.menu {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-family: $contentFont;
+    font-weight: 700;
+    color: $mainColor;
+    text-decoration: none;
+    transition-duration: 0.6s;
+    font-style: italic;
+    margin: 0px;
+}
+a.menu:hover {
+    color: $hoverColor;
+}

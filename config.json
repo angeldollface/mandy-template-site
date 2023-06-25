@@ -1,0 +1,13 @@
+{
+    "title": "Mandy Template Site",
+    "description": "The default template site for creating new Mandy-powered sites.",
+    "prod_url": "/mandy-template-site/",
+    "dev_url": "/",
+    "closingText": "Close",
+    "logo_url": "assets/logo/logo.png",
+    "motto": "A beautiful, modern, and minimalist template for the Mandy SSG.",
+    "copyAssets": "true",
+    "assetsDir": "assets",
+    "footerText": "Mandy Template Site",
+    "mandyIcon": "https://angeldollface.art/doll-cdn/images/mandy/mandy-icon-white.svg"
+}

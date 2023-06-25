@@ -1,0 +1,57 @@
+
+@media screen and (max-width: 800px){
+    img.pfp {
+        width: 150px;
+        height: 150px;
+    }
+    h1 {
+        font-size: 31px;
+    }
+    p.motto {
+        font-size: 21px;
+    }
+    div.content {
+        width: 80%;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 20px;
+    }
+    a {
+        font-size: 20px;
+    }        
+    img.inline {
+        width: 26px;
+        height: 26px;
+    }
+    p.footer {
+        font-size: 20px;
+    }
+    a.footer {
+        font-size: 20px;
+    }    
+    ul.navigation {
+        margin-top: 10vh;
+    }
+    li.navigation {
+        padding-left: 20px;
+        font-size: 26px;
+    }
+    a.navigation {
+        font-size: 26px;
+    }    
+    p.menu {
+        font-size: 26px;
+    }
+    a.menu {
+        font-size: 26px;
+    }
+}
