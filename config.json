@@ -12,5 +12,7 @@
     "copyAssets": "true",
     "assetsDir": "assets",
     "footerText": "Mandy Template Site",
+    "hasLoopContent": "true",
+    "loopContentDirs": "posts",
     "mandyIcon": "https://angeldollface.art/doll-cdn/images/mandy/mandy-icon-white.svg"
 }
