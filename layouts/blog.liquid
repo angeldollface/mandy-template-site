@@ -55,7 +55,7 @@ Licensed under the MIT license.
        <ul class="navigation">
         {% for item in data["data"]["nav"] %}
          <li class="navigation">
-          <a class="navigation" href="{{ item.url }}">{{ item.name }}</a>
+          <a class="navigation" href="{{ site.baseurl}}{{ item.url }}">{{ item.name }}</a>
          </li>
         {% endfor %}
          <li class="navigation">
