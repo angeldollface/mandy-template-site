@@ -2,7 +2,7 @@
     "title": "Mandy Template Site",
     "version": "1.0.0",
     "description": "The default template site for creating new Mandy-powered sites.",
-    "prod_url": "/mandy-template-site",
+    "prod_url": "/mandy-template-site/",
     "dev_url": "/",
     "keywords": "static-site-generator mandy rust template liquid open-source mit-license",
     "closingText": "Close",
