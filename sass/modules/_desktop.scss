@@ -111,6 +111,36 @@ p {
     font-style: none;
     font-family: $contentFont;
 }
+ul {
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    list-style: none;
+}
+li {
+    color: $accentColor;
+    font-size: 24px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: none;
+    font-family: $contentFont;
+    text-decoration: none;
+    transition-duration: 0.6s;
+}
+li::before {
+    content: '-';
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+}
 a {
     color: $accentColor;
     font-size: 24px;
@@ -203,8 +233,15 @@ li.navigation {
     margin: 0px;
     z-index: 2;
 }
+li.navigation::before {
+    content: '';
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
 a.navigation {
-    font-style: italic;
+    font-style: normal;
     padding: 0px;
     font-family: $contentFont;
     font-weight: 700;
@@ -248,4 +285,28 @@ a.menu {
 }
 a.menu:hover {
     color: $hoverColor;
+}
+pre {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: $codeBG;
+}
+code {
+    color: $accentColor;
+    overflow-y: scroll;
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+    font-family: $codeFont;
+    font-weight: lighter;
+    background-color: $codeBG;
+    font-style: none;
+    text-decoration: none;
+    transition-duration: 0.6s;
 }
