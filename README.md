@@ -17,7 +17,7 @@
 
 ## USAGE :hammer_and_pick:
 
-To use this template site for your own Mandy-powered site, you need to have Mandy installed. To find out how to do that, head over to [this link](). Once you have Mandy installed, you can use this template in the following way:
+To use this template site for your own Mandy-powered site, you need to have Mandy installed. To find out how to do that, head over to [this link](https://github.com/angeldollface/mandy). Once you have Mandy installed, you can use this template in the following way:
 
 - 1.) Check you have the latest version of Mandy installed:
 
