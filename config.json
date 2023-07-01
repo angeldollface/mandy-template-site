@@ -7,6 +7,8 @@
     "keywords": "static-site-generator mandy rust template liquid open-source mit-license",
     "closingText": "Close",
     "menuText": "Menu",
+    "updateFreq": "weekly",
+    "tlDomain": "https://angeldollface.art",
     "copyFiles": "true=>assets",
     "logo_url": "assets/logo/logo.png",
     "motto": "A beautiful, modern, and minimalist template for the Mandy SSG.",
