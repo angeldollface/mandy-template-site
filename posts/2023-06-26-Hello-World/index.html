@@ -1,87 +1,83 @@
-<!--
-MANDY TEMPLATE SITE by Alexander Abraham a.k.a. "Angel Dollface".
-Licensed under the MIT license.
--->
-
 <!DOCTYPE html>
 <html>
  <head>
-  <!--Site header.-->
-  <meta property="og:image:type" content="image/png">
-  <title>Mandy Template Site | Hello World</title>
-  <meta name="twitter:image:type" content="image/png">
-  <meta property="og:image" content="/mandy-template-site/assets/banner/banner.png">
-  <meta property="twitter:image" content="/mandy-template-site/assets/banner/banner.png">
-  <meta property="og:name" content="Mandy Template Site">
-  <meta property="og:description" content="The default template site for creating new Mandy-powered sites.">
-  <meta name="twitter:name" content="Mandy Template Site">
-  <meta name="keywords" content="static-site-generator mandy rust template liquid open-source mit-license">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image:alt" content="Mandy Template Site">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="The default template site for creating new Mandy-powered sites.">
-  <meta name="twitter:description" content="The default template site for creating new Mandy-powered sites.">
-  <link rel="stylesheet" href="/mandy-template-site/css/index.css" type="text/css"/>
-  <link rel="apple-touch-icon" sizes="57x57" href="/mandy-template-site/assets/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/mandy-template-site/assets/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/mandy-template-site/assets/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/mandy-template-site/assets/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/mandy-template-site/assets/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/mandy-template-site/assets/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/mandy-template-site/assets/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/mandy-template-site/assets/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/mandy-template-site/assets/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/mandy-template-site/assets/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/mandy-template-site/assets/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/mandy-template-site/assets/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/mandy-template-site/assets/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/mandy-template-site/assets/icon_info/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/mandy-template-site/assets/favicons/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Lora:400,400i,700,700i">
- </head>
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:image:type" content="image/png">
+<meta property="og:image" content="/mandy-template-site/assets/banner/banner.png">
+<meta property="twitter:image" content="/mandy-template-site/assets/banner/banner.png">
+<meta property="og:name" content="Mandy Template Site">
+<meta property="og:description" content="The default template site for creating new Mandy-powered sites.">
+<meta name="twitter:name" content="Mandy Template Site">
+<meta name="keywords" content="static-site-generator mandy rust template liquid open-source mit-license">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:alt" content="Mandy Template Site">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The default template site for creating new Mandy-powered sites.">
+<meta name="twitter:description" content="The default template site for creating new Mandy-powered sites.">
+<link rel="stylesheet" href="/mandy-template-site/css/index.css" type="text/css"/>
+<link rel="apple-touch-icon" sizes="57x57" href="/mandy-template-site/assets/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/mandy-template-site/assets/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/mandy-template-site/assets/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/mandy-template-site/assets/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/mandy-template-site/assets/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/mandy-template-site/assets/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/mandy-template-site/assets/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/mandy-template-site/assets/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/mandy-template-site/assets/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/mandy-template-site/assets/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/mandy-template-site/assets/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/mandy-template-site/assets/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/mandy-template-site/assets/favicons/favicon-16x16.png">
+<link rel="manifest" href="/mandy-template-site/assets/icon_info/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/mandy-template-siteassets/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<title>Mandy Template Site | Hello World</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Lora:400,400i,700,700i">
+</head>
  <body>
-
-  <!--Menu opening section.-->
   <div class="menu">
-   <p class="menu">
-    <a class="menu" href="javascript:void(0);" onclick="openNav('navigation');">Menu</a>
-   </p>
-  </div>
-  
-  <!--Menu section.-->
+ <p class="menu">
+  <a class="menu" href="javascript:void(0);" onclick="openNav('navigation');">
+  Menu
+  </a>
+ </p>
+</div>
   <div class="navigation" id="navigation">
-   <ul class="navigation">
-    
-     <li class="navigation">
-      <a class="navigation" href="/mandy-template-site">Home</a>
-     </li>
-    
-     <li class="navigation">
-      <a class="navigation" href="/mandy-template-site/content/about">About</a>
-     </li>
-    
-     <li class="navigation">
-      <a class="navigation" href="/mandy-template-site/content/blog">Blog</a>
-     </li>
-    
-     <li class="navigation">
-      <a class="navigation" href="javascript:void(0);" onclick="closeNav('navigation');">Close</a>
-     </li>
-    </ul>
-   </div>
-   
-   <!--Heading section.-->
-   <img class="pfp" src="/mandy-template-site/assets/logo/logo.png"/>
-   <h1>Mandy Template Site</h1>
-   <p class="motto">
-    A beautiful, modern, and minimalist template for the Mandy SSG.
-   </p>
-   
-   <!--Content goes here.-->
-   <div class="content">
-    <h2 id='your_title'>YOUR TITLE</h2>
+ <ul class="navigation">
+ 
+  <li class="navigation">
+   <a class="navigation" href="/mandy-template-site">
+    Home
+   </a>
+  </li>
+ 
+  <li class="navigation">
+   <a class="navigation" href="/mandy-template-site/content/about">
+    About
+   </a>
+  </li>
+ 
+  <li class="navigation">
+   <a class="navigation" href="/mandy-template-site/content/blog">
+    Blog
+   </a>
+  </li>
+ 
+  <li class="navigation">
+   <a class="navigation" href="javascript:void(0);" onclick="closeNav('navigation');">
+    Close
+   </a>
+  </li>
+ </ul>
+</div>
+  <img class="pfp" src="/mandy-template-site/assets/logo/logo.png"/>
+<h1>Mandy Template Site</h1>
+<p class="motto">
+ A beautiful, modern, and minimalist template for the Mandy SSG.
+</p>
+  <div class="content">
+   <h2 id='your_title'>YOUR TITLE</h2>
 
 <p>Mandy and this theme have support for most Markdown features that GitHub also supports. Below are samples of a some of these features.</p>
 
@@ -110,21 +106,16 @@ Licensed under the MIT license.
 
 <p>Syntax highlighting will have to be added by theme- and site-developers individually.</p>
 
-   </div>
-
-   <!--Breaker for better spacing.-->
-   <br/>
-
-   <!--Footer section.-->
-   <div class="footer">
-    <p class="footer">
-     Mandy Template Site<img class="inline" src="https://angeldollface.art/doll-cdn/images/mandy/mandy-icon-white.svg"/><br/>
-     Mandy Template Site v.1.0.0
-    </p>
-   </div>
-
-   <!--Script for handling navigation interactivity.-->
-   <script async src="/mandy-template-site/assets/javascript/nav.js" type="text/javascript"></script>
-
+  </div>
+  <br/>
+  <div class="footer">
+ <p class="footer">
+  Mandy Template Site<img class="inline" src="https://angeldollface.art/doll-cdn/images/mandy/mandy-icon-white.svg"/>
+  <br/>
+  Mandy Template Site v.1.0.0
+ </p>
+</div>
+  <script async src="/mandy-template-site/assets/javascript/nav.js" type="text/javascript">
+</script>
   </body>
 </html>
