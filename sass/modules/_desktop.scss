@@ -155,44 +155,11 @@ a {
 a:hover {
     color: $hoverColor;
 }
-div.footer {
-    width: 100%;
-    margin: 0px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: $accentColor;
-}
 img.inline {
     width: 30px;
     height: 30px;
     margin: 0px;
     padding: 0px;
-}
-p.footer {
-    text-align: center;
-    color: $mainColor;
-    font-size: 24px;
-    padding: 10px;
-    margin: 0px;
-    font-weight: 400;
-    font-style: none;
-    font-family: $contentFont;
-}
-a.footer {
-    text-align: center;
-    color: $mainColor;
-    font-size: 24px;
-    padding: 0px;
-    margin: 0px;
-    font-weight: 400;
-    text-decoration: underline;
-    font-style: none;
-    font-family: $contentFont;
-    transition-duration: 0.6s;
-}
-a.footer:hover {
-    color: $hoverColor;
 }
 div.navigation {
     top: 0;
