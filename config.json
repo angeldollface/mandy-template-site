@@ -16,5 +16,6 @@
     "hasLoopContent": "true",
     "readMeText": "Read",
     "loopContentDirs": "posts",
+    "build_log": "true",
     "mandyIcon": "https://angeldollface.art/doll-cdn/images/mandy/mandy-icon-white.svg"
 }
