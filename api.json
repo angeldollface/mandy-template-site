@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "title": "Hello World",
+      "layout": "layouts/page.liquid",
+      "date": "26/06/2023",
+      "url": "/posts/2023-06-26-Hello-World",
+      "description": "A 'Hello World' post on my shiny new Mandy-powered site.",
+      "lastUpdated": "00:00",
+      "content": "<h2 id='your_title'>YOUR TITLE</h2>\n\n<p>Mandy and this theme have support for most Markdown features that GitHub also supports. Below are samples of a some of these features.</p>\n\n<h2 id='a_random_list'>A RANDOM LIST</h2>\n\n<p>Here&#8217;s a random unordered list.</p>\n\n<ul>\n<li>This item 1 of this list.</li>\n\n<li>This item 2 of this list.</li>\n\n<li>This item 3 of this list.</li>\n\n<li>This item 4 of this list.</li>\n</ul>\n\n<h2 id='a_random_code_sample'>A RANDOM CODE SAMPLE</h2>\n\n<p>Since Mandy is written in Rust, here&#8217;s a <code>Hello World</code> code-sample in Rust:</p>\n\n<pre><code class=\"language-Rust\">pub fn main() -&gt; () {\n    let msg: String = String::from(&quot;Hello World!&quot;);\n    println!(&quot;{}&quot;, &amp;msg);\n}</code></pre>\n\n<p>Syntax highlighting will have to be added by theme- and site-developers individually.</p>\n"
+    },
+    {
+      "layout": "layouts/page.liquid",
+      "description": "My first post on my shiny new Mandy-powered site.",
+      "content": "<h2 id='your_title'>YOUR TITLE</h2>\n\n<p>Mandy and this theme have support for most Markdown features that GitHub also supports. Below are samples of a some of these features.</p>\n\n<h2 id='a_random_list'>A RANDOM LIST</h2>\n\n<p>Here&#8217;s a random unordered list.</p>\n\n<ul>\n<li>This item 1 of this list.</li>\n\n<li>This item 2 of this list.</li>\n\n<li>This item 3 of this list.</li>\n\n<li>This item 4 of this list.</li>\n</ul>\n\n<h2 id='a_random_code_sample'>A RANDOM CODE SAMPLE</h2>\n\n<p>Since Mandy is written in Rust, here&#8217;s a <code>Hello World</code> code-sample in Rust:</p>\n\n<pre><code class=\"language-Rust\">pub fn main() -&gt; () {\n    let msg: String = String::from(&quot;Hello World!&quot;);\n    println!(&quot;{}&quot;, &amp;msg);\n}</code></pre>\n\n<p>Syntax highlighting will have to be added by theme- and site-developers individually.</p>\n",
+      "url": "/posts/2023-05-26-My-first-post",
+      "date": "26/05/2023",
+      "lastUpdated": "00:00",
+      "title": "My first post"
+    }
+  ]
+}
