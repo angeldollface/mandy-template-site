@@ -7,13 +7,13 @@
 <title>Hello World</title>
 <description>A 'Hello World' post on my shiny new Mandy-powered site.</description>
 <pubDate>26/06/2023</pubDate>
-<link>/mandy-template-site/posts/2023-06-26-Hello-World</link>
+<link>https://angeldollface.art/mandy-template-site/posts/2023-06-26-Hello-World</link>
 </item>
 <item>
 <title>My first post</title>
 <description>My first post on my shiny new Mandy-powered site.</description>
 <pubDate>26/05/2023</pubDate>
-<link>/mandy-template-site/posts/2023-05-26-My-first-post</link>
+<link>https://angeldollface.art/mandy-template-site/posts/2023-05-26-My-first-post</link>
 </item>
 </channel>
 </rss>
