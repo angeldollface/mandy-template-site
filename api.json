@@ -6,16 +6,16 @@
       "link": "/mandy-template-site",
       "items": [
         {
-          "title": "Hello World",
-          "description": "A 'Hello World' post on my shiny new Mandy-powered site.",
-          "pub_date": "26/06/2023",
-          "link": "https://angeldollface.art/mandy-template-site/posts/2023-06-26-Hello-World"
-        },
-        {
           "title": "My first post",
           "description": "My first post on my shiny new Mandy-powered site.",
           "pub_date": "26/05/2023",
           "link": "https://angeldollface.art/mandy-template-site/posts/2023-05-26-My-first-post"
+        },
+        {
+          "title": "Hello World",
+          "description": "A 'Hello World' post on my shiny new Mandy-powered site.",
+          "pub_date": "26/06/2023",
+          "link": "https://angeldollface.art/mandy-template-site/posts/2023-06-26-Hello-World"
         }
       ]
     }
