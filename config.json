@@ -8,7 +8,7 @@
     "closingText": "Close",
     "menuText": "Menu",
     "updateFreq": "weekly",
-    "tlDomain": "https://angeldollface.art",
+    "tlDomain": "https://angeldollface.boo",
     "copyFiles": "true=>assets",
     "logo_url": "/assets/logo/logo.png",
     "motto": "A beautiful, modern, and minimalist template for the Mandy SSG.",
@@ -17,5 +17,5 @@
     "readMeText": "Read",
     "loopContentDirs": "posts",
     "build_log": "true",
-    "mandyIcon": "https://angeldollface.art/doll-cdn/images/mandy/mandy-icon-white.svg"
+    "mandyIcon": "https://angeldollface.boo/doll-cdn/images/mandy/mandy-icon-white.svg"
 }
