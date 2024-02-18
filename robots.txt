@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://angeldollface.art/mandy-template-site/sitemap.xml
+Sitemap: https://angeldollface.boo/mandy-template-site/sitemap.xml
